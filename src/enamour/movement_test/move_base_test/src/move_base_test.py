@@ -3,8 +3,6 @@
 
 import rospy
 import actionlib
-import numpy as np
-import math
 from tf.transformations import quaternion_from_euler
 from tf.transformations import *
 from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
